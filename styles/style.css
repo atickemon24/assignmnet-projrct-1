@@ -96,6 +96,7 @@ p.text-intro {font-size: 10px;
         font-size: 15px;
         font-weight: 400;
         line-height: 20px;
+        padding-bottom: 30px;
      }
      .main-part{
         height: 100vh;
@@ -104,4 +105,40 @@ p.text-intro {font-size: 10px;
         text-align: center;
         width: 500px;
         overflow: hidden;
+    }
+    .all-box{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        gap: 20px;
+    }
+    .box{
+        padding-top: 30px;
+        width: 400px;
+        text-align: center;
+        height: 200px;
+    }
+    .box1{
+        border-radius: 300px 300px 0px 0px;
+        background: rgba(167, 33, 98, 0.15);
+    }
+    .box2{
+        border-radius: 300px 300px 0px 0px;
+        background: rgba(5, 151, 160, 0.15);
+    }
+    .box3{
+        border-radius: 300px 300px 0px 0px;
+        background: rgba(71, 125, 17, 0.15);
+    }
+    .flower{
+        width: 160px;
+        height: 189px;
+    }
+    .flower-img{
+        padding: 10px 15px 10px 15px;
+    }
+    .flower-link{
+        color: #272727;
+        font-size: 10px;
+        margin: auto;
     }
