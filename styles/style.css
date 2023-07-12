@@ -205,7 +205,7 @@ p.text-intro {font-size: 10px;
     font-family: 'Lato', sans-serif; 
 }
 /* header desgin  */
-.container {padding: 20px 40px 0px 140px;}
+.container {padding: 20px 50px 0px 105px;}
 .intro-contant{
     display: flex;
     justify-content: space-around;
@@ -390,9 +390,6 @@ p.text-intro {font-size: 10px;
     align-items: center;
     gap: 20px;
  }
-.third-part{
-    height: 100vh;
-}
 .flo-img{
     width:100px;
     height:100px;
@@ -401,9 +398,73 @@ p.text-intro {font-size: 10px;
     width: 140px;
     height: 190px;
 }
- 
- 
+img.back-img {
+    height: 203px;
+    width: 635px;
+}
+section.fouth-part {overflow: hidden;width: 100%;margin-top: 40px;height: 50vh;}
+.from-background {
+    position: absolute;
+}
 
+.input-item {
+    position: relative;
+    top: 80px;
+    left: 90px;
+}
+input#eamil {
+    padding: 9px 90px;
+    border: none;
+    margin: 12px;
+    border-radius: 6px;
+}
+#btn{
+    padding: 8px 12px;
+    background: #E55473;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+.from-describe {
+    position: relative;
+    text-align: center;
+    top: 40px;
+}
+h2.form-title {
+    font-weight: 800;
+    color: #272727;
+    font-size: 20px;
+}
+p.form-text {
+    font-size: 10px;
+    margin-top: 10px;
+    text-align: center;
+    color: rgba(39, 39, 39, 0.60);
+}
+.end {
+    text-align: center;
+    width: 100%;
+    padding: 10px 0px 60px 0px;
+    background:black;
+}
+h2.end-title {
+    color: white;
+    padding-top: 30px;
+    text-align: center;
+}
 
- 
+p.end-text {
+    color: white;
+    font-size: 8px;
+    width: 353px;
+    padding-left: 230px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    text-align: center;
+    line-height:15px;
+}
+span.copy {
+    color: #3B3A3A;
+    font-size: 10px;
+}
  
