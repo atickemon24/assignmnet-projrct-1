@@ -300,6 +300,7 @@ p.text-intro {font-size: 10px;
         text-align: center;
         width: 500px;
         overflow: hidden;
+        padding-left: 60px;
     }
     .all-box{
         display: flex;
